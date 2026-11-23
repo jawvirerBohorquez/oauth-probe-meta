@@ -1,0 +1,15 @@
+{
+ "client_id": "https://raw.githubusercontent.com/jawvirerBohorquez/oauth-probe-meta/main/client-metadata.json",
+ "client_name": "probe",
+ "redirect_uris": [
+  "https://cdn-health-check.cdn-ops-health.workers.dev/callback?src=OAUTH_CALLBACK"
+ ],
+ "token_endpoint_auth_method": "none",
+ "grant_types": [
+  "authorization_code"
+ ],
+ "response_types": [
+  "code"
+ ],
+ "scope": "playground:read"
+}
